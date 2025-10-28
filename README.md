@@ -45,8 +45,8 @@ Consolidates customer identity information based on provided email and/or phone 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bitespeed-identity-reconciliation.git
-cd bitespeed-identity-reconciliation
+git clone https://github.com/krockxz/Backend-Assg.git
+cd Backend-Assg
 ```
 
 2. Install dependencies:
@@ -147,11 +147,11 @@ Your service will be available at: `https://your-app-name.onrender.com`
 
 ## Live Endpoint
 
-The service is deployed and available at: **https://bitespeed-identity-reconciliation.onrender.com/identify**
+The service is deployed and available at: **https://backend-assg.onrender.com/identify**
 
 Example usage:
 ```bash
-curl -X POST https://bitespeed-identity-reconciliation.onrender.com/identify \
+curl -X POST https://backend-assg.onrender.com/identify \
   -H "Content-Type: application/json" \
   -d '{"email": "test@example.com", "phoneNumber": "1234567890"}'
 ```
